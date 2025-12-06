@@ -1,0 +1,5 @@
+Total Campus Consumption (kWh): 15.00
+Highest-consuming building: meter1 (15.00 kWh)
+Peak reading time: 2025-11-01 00:00:00
+Average daily campus consumption: 15.00 kWh
+Average weekly campus consumption: 15.00 kWh

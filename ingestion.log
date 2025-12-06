@@ -1,0 +1,16 @@
+2025-12-06 18:37:08,233 INFO: Starting campus energy dashboard pipeline
+2025-12-06 18:37:08,233 INFO: Attempting to read: admin.csv
+2025-12-06 18:37:08,238 ERROR: Failed to read admin.csv: No columns to parse from file
+2025-12-06 18:37:08,239 INFO: Attempting to read: hostel_a.csv
+2025-12-06 18:37:08,239 ERROR: Failed to read hostel_a.csv: No columns to parse from file
+2025-12-06 18:37:08,239 INFO: Attempting to read: library.csv
+2025-12-06 18:37:08,242 ERROR: Failed to read library.csv: No columns to parse from file
+2025-12-06 18:37:08,242 INFO: Attempting to read: meter1.csv
+2025-12-06 18:37:08,276 INFO: Combined DataFrame shape: (3, 3)
+2025-12-06 18:37:10,389 INFO: Dashboard image saved to: output\dashboard.png
+2025-12-06 18:37:10,397 INFO: Saved cleaned data to output\cleaned_energy_data.csv
+2025-12-06 18:37:10,400 INFO: Saved building summary to output\building_summary.csv
+2025-12-06 18:37:10,404 INFO: Saved daily totals to output\daily_totals.csv
+2025-12-06 18:37:10,406 INFO: Saved weekly totals to output\weekly_totals.csv
+2025-12-06 18:37:10,416 INFO: Summary written to output\summary.txt
+2025-12-06 18:37:10,433 INFO: Pipeline completed successfully.
