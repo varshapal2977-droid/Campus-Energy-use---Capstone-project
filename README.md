@@ -126,36 +126,7 @@ Top 100 highest hourly readings scatter plot
 
 Exports the following:
 
-File	Description
-cleaned_energy_data.csv	Clean, standardized dataset
-building_summary.csv	Summary metrics for each building
-daily_totals.csv	Daily aggregated kWh usage
-weekly_totals.csv	Weekly aggregated usage
-summary.txt	Executive summary + key insights
-dashboard.png	Visual dashboard
-ingestion.log	Logs of ingestion process
-🚀 How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/YOUR-USERNAME/campus-energy-dashboard.git
-cd campus-energy-dashboard
 
-2️⃣ Create Virtual Environment
-Windows (PowerShell):
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-macOS/Linux:
-python3 -m venv .venv
-source .venv/bin/activate
-
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-
-4️⃣ Add Your CSV Files
-
-Place all energy meter CSVs into:
-
-data/
 
 
 Each file must follow this format:
@@ -164,7 +135,7 @@ timestamp,kwh
 2025-11-01 00:00,12.5
 2025-11-01 01:00,13.2
 
-5️⃣ Run the Pipeline
+
 python campus_energy_dashboard.py
 
 📈 Outputs Explained
